@@ -39,7 +39,7 @@ def main():
                # print(shot)
                 if shot.collision(object):
                    # print("hit asteroid!")
-                    object.kill()
+                    object.split()
                     shot.kill()
         for object in drawable:
             object.draw(screen)
